@@ -3,6 +3,7 @@
         "stm32g0xx_hal.h": "c",
         "freertos.h": "c",
         "task.h": "c",
-        "error.h": "c"
+        "error.h": "c",
+        "circular_buffer.h": "c"
     }
 }

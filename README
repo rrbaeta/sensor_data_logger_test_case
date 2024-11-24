@@ -1,3 +1,10 @@
 Setting Up:
 
 Install PlatformIO IDE as a plugin for Visual Studio Code
+
+//==============================================================================
+
+Generate so files to use with pytest:
+gcc -shared -o temperature_sensor.so -fPIC src/sensor.c src/circular_buffer.c
+
+To run tests do "pytest" in the terminal

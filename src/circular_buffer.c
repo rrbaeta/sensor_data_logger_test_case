@@ -12,9 +12,4 @@ void buffer_add(CircularBuffer *cb, int value)
     {
         cb->tail = (cb->tail + 1) % BUFFER_SIZE;
     }
-
-    if (cb->head >= BUFFER_SIZE) // should never happen
-    {
-        handle_error("Buffer overflow");
-    }
 }
