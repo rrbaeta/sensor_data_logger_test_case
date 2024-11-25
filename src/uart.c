@@ -29,10 +29,7 @@ void UART_init(void)
     GPIO_InitStruct.Alternate = GPIO_AF1_USART1;
     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-    if (HAL_UART_Init(&huart1) != HAL_OK)
-    {
-        Error_Handler();
-    }
+    HAL_UART_Init(&huart1);
 }
 
 void UART_Printf(const char *format, ...)
