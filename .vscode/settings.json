@@ -4,6 +4,7 @@
         "freertos.h": "c",
         "task.h": "c",
         "error.h": "c",
-        "circular_buffer.h": "c"
+        "circular_buffer.h": "c",
+        "sensor.h": "c"
     }
 }

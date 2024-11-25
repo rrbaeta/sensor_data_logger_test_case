@@ -1,5 +1,5 @@
-#ifndef CIRCULAR_BUFFER_H
-#define CIRCULAR_BUFFER_H
+#ifndef SENSOR_H
+#define SENSOR_H
 
 int read_temperature();
 
